@@ -1,0 +1,203 @@
+[
+  {
+    "id": "micro-finance",
+    "name": "Micro Finance Scheme",
+    "description": "Financial assistance for small income-generating activities with affordable interest rates and easy repayment terms.",
+    "beneficiaryType": "entrepreneur",
+    "category": ["agriculture", "small-industry", "services", "transport", "other"],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 60,
+      "maxIncome": 300000,
+      "minProjectCost": 0,
+      "maxProjectCost": 140000,
+      "maxLoan": 125000,
+      "existingBusiness": null,
+      "states": []
+    },
+    "financials": {
+      "projectCostRange": "Up to ₹1.40 Lakh",
+      "maxLoanAmount": 125000,
+      "interestRate": 6.5,
+      "interestRateDisplay": "6.5% p.a.",
+      "repaymentYears": 3,
+      "repaymentDisplay": "3 Years",
+      "moratoriumMonths": 3,
+      "moratoriumDisplay": "3 Months"
+    },
+    "requiredDocuments": [
+      { "id": "identity", "name": "Identity Proof (Aadhaar / Voter ID / PAN)", "category": "identity" },
+      { "id": "address", "name": "Address Proof (Aadhaar / Utility Bill)", "category": "address" },
+      { "id": "income", "name": "Income Certificate", "category": "financial" },
+      { "id": "bank", "name": "Bank Account Details (Passbook / Statement)", "category": "financial" },
+      { "id": "project", "name": "Project Report / Business Plan", "category": "business" }
+    ],
+    "source": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "effectiveDate": "2024-04-01",
+    "version": "2.1",
+    "lastUpdated": "2025-12-15",
+    "status": "active"
+  },
+  {
+    "id": "aajeevika-micro-finance",
+    "name": "Aajeevika Micro-Finance Yojana",
+    "description": "Micro-finance assistance under the Aajeevika scheme to support livelihood activities for economically weaker sections.",
+    "beneficiaryType": "entrepreneur",
+    "category": ["agriculture", "small-industry", "services", "other"],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 55,
+      "maxIncome": 300000,
+      "minProjectCost": 0,
+      "maxProjectCost": 140000,
+      "maxLoan": 125000,
+      "existingBusiness": null,
+      "states": []
+    },
+    "financials": {
+      "projectCostRange": "Up to ₹1.40 Lakh",
+      "maxLoanAmount": 125000,
+      "interestRate": 15,
+      "interestRateDisplay": "15% p.a.",
+      "repaymentYears": 3,
+      "repaymentDisplay": "3 Years",
+      "moratoriumMonths": 3,
+      "moratoriumDisplay": "3 Months"
+    },
+    "requiredDocuments": [
+      { "id": "identity", "name": "Identity Proof (Aadhaar / Voter ID / PAN)", "category": "identity" },
+      { "id": "address", "name": "Address Proof (Aadhaar / Utility Bill)", "category": "address" },
+      { "id": "income", "name": "Income Certificate", "category": "financial" },
+      { "id": "bank", "name": "Bank Account Details (Passbook / Statement)", "category": "financial" },
+      { "id": "project", "name": "Project Report / Business Plan", "category": "business" }
+    ],
+    "source": "Ministry of Rural Development, Government of India",
+    "effectiveDate": "2023-10-01",
+    "version": "1.3",
+    "lastUpdated": "2025-08-20",
+    "status": "active"
+  },
+  {
+    "id": "term-loan",
+    "name": "Term Loan",
+    "description": "Medium to large financial assistance for established and new business ventures with competitive interest rates and extended repayment tenure.",
+    "beneficiaryType": "entrepreneur",
+    "category": ["agriculture", "small-industry", "services", "transport", "other"],
+    "eligibility": {
+      "minAge": 21,
+      "maxAge": 55,
+      "maxIncome": 600000,
+      "minProjectCost": 140001,
+      "maxProjectCost": 5000000,
+      "maxLoan": 4500000,
+      "existingBusiness": null,
+      "states": []
+    },
+    "financials": {
+      "projectCostRange": "Above ₹1.40 Lakh up to ₹50 Lakh",
+      "maxLoanAmount": 4500000,
+      "interestRate": 8,
+      "interestRateDisplay": "8% p.a.",
+      "repaymentYears": 7,
+      "repaymentDisplay": "7 Years",
+      "moratoriumMonths": 6,
+      "moratoriumDisplay": "6 Months"
+    },
+    "requiredDocuments": [
+      { "id": "identity", "name": "Identity Proof (Aadhaar / Voter ID / PAN)", "category": "identity" },
+      { "id": "address", "name": "Address Proof (Aadhaar / Utility Bill)", "category": "address" },
+      { "id": "income", "name": "Income Certificate", "category": "financial" },
+      { "id": "bank", "name": "Bank Account Details (Passbook / Statement)", "category": "financial" },
+      { "id": "project", "name": "Detailed Project Report", "category": "business" },
+      { "id": "business-reg", "name": "Business Registration / Udyam Certificate", "category": "business" },
+      { "id": "collateral", "name": "Collateral Documents (if applicable)", "category": "business" }
+    ],
+    "source": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "effectiveDate": "2024-04-01",
+    "version": "3.0",
+    "lastUpdated": "2026-01-10",
+    "status": "active"
+  },
+  {
+    "id": "udyam-nidhi",
+    "name": "Udyam Nidhi Yojana",
+    "description": "Entrepreneurship development scheme providing financial support for starting new micro and small enterprises.",
+    "beneficiaryType": "entrepreneur",
+    "category": ["small-industry", "services", "other"],
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 50,
+      "maxIncome": 400000,
+      "minProjectCost": 0,
+      "maxProjectCost": 500000,
+      "maxLoan": 450000,
+      "existingBusiness": null,
+      "states": []
+    },
+    "financials": {
+      "projectCostRange": "Up to ₹5 Lakh",
+      "maxLoanAmount": 450000,
+      "interestRate": 14,
+      "interestRateDisplay": "13–15% (depending on channel)",
+      "repaymentYears": 5,
+      "repaymentDisplay": "5 Years",
+      "moratoriumMonths": 3,
+      "moratoriumDisplay": "3 Months"
+    },
+    "requiredDocuments": [
+      { "id": "identity", "name": "Identity Proof (Aadhaar / Voter ID / PAN)", "category": "identity" },
+      { "id": "address", "name": "Address Proof (Aadhaar / Utility Bill)", "category": "address" },
+      { "id": "income", "name": "Income Certificate", "category": "financial" },
+      { "id": "bank", "name": "Bank Account Details (Passbook / Statement)", "category": "financial" },
+      { "id": "project", "name": "Project Report / Business Plan", "category": "business" },
+      { "id": "training", "name": "Entrepreneurship Training Certificate (if any)", "category": "business" }
+    ],
+    "source": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "effectiveDate": "2024-07-01",
+    "version": "1.5",
+    "lastUpdated": "2025-11-30",
+    "status": "active"
+  },
+  {
+    "id": "education-loan",
+    "name": "Educational Loan Scheme",
+    "description": "Financial assistance for eligible students pursuing higher education with subsidized interest rates and extended repayment after course completion.",
+    "beneficiaryType": "student",
+    "category": ["education"],
+    "eligibility": {
+      "minAge": 17,
+      "maxAge": 35,
+      "maxIncome": 800000,
+      "minProjectCost": 0,
+      "maxProjectCost": 4000000,
+      "maxLoan": 4000000,
+      "existingBusiness": null,
+      "states": [],
+      "courseTypes": ["engineering", "medical", "management", "professional", "other"]
+    },
+    "financials": {
+      "projectCostRange": "Up to ₹40 Lakh or 90% of course fee",
+      "maxLoanAmount": 4000000,
+      "interestRate": 6.5,
+      "interestRateDisplay": "6.5% p.a.",
+      "repaymentYears": 12,
+      "repaymentDisplay": "10–12 Years",
+      "moratoriumMonths": 12,
+      "moratoriumDisplay": "Course period + 12 months"
+    },
+    "requiredDocuments": [
+      { "id": "identity", "name": "Identity Proof (Aadhaar / Voter ID)", "category": "identity" },
+      { "id": "address", "name": "Address Proof", "category": "address" },
+      { "id": "income", "name": "Family Income Certificate", "category": "financial" },
+      { "id": "bank", "name": "Bank Account Details", "category": "financial" },
+      { "id": "admission", "name": "Admission Letter / Offer Letter", "category": "education" },
+      { "id": "fee-structure", "name": "Course Fee Structure", "category": "education" },
+      { "id": "marksheets", "name": "Previous Academic Marksheets", "category": "education" }
+    ],
+    "source": "National Scheduled Castes Finance and Development Corporation (NSFDC)",
+    "effectiveDate": "2024-04-01",
+    "version": "2.0",
+    "lastUpdated": "2026-02-01",
+    "status": "active"
+  }
+]
